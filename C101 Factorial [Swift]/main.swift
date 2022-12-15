@@ -9,6 +9,7 @@ let n = 7
 
 // Add your code below:
 
+// n stands for number.
 func factorial(_ n: Int) -> Int {
     print("Calculating factorial(\(n))...")
     if n <= 1 {
@@ -21,4 +22,10 @@ func factorial(_ n: Int) -> Int {
     }
 }
 
-print("The final result is: \(factorial(n)).")
+func main() {
+    let finalresult = factorial(n)
+    print("The final result is: \(finalresult).")
+}
+
+
+main()
